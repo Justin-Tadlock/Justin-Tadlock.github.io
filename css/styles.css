@@ -152,6 +152,10 @@ section > h2:hover {
     border: solid 1px rgb(90,90,90);
     margin-bottom:0.1rem;
 }
+#embedded-resume > object {
+    height: 100%;
+    width: 100%;
+}
 
 .resume-type {
     padding-top: 1em; 
