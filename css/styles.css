@@ -10,8 +10,11 @@ body {
 
 }
 
-a {
+.inline-block {
     display:inline-block;
+}
+
+a {
     text-decoration-line: none !important;
 }
 
@@ -107,6 +110,10 @@ section > h2:hover {
 .interest:hover *,
 .resume-section h2:hover {
     color: rgb(0, 161, 241) !important;
+}
+
+.resume-type {
+    padding-bottom: 5em;
 }
 
 .resume-item h2 {
