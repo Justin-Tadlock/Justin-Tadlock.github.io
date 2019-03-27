@@ -31,7 +31,12 @@ a {
     color: rgb(0,161,241) !important;
 }
 .interest {
-    font-size:2rem;
+    font-size:1rem;
+}
+
+.block-emblems > li {
+    display:inline-block;
+    width: 8rem;
 }
 
 .resume-section {
@@ -149,8 +154,14 @@ section > h2:hover {
 .grey {
     color: rgb(90, 90, 90); }
 
+#embedded-resume {
+    height: 60em;
+    width: 55em;
+}
+
 .resume-type {
-    padding-top: .5em; }
+    padding-top: .5em; 
+}
     
 footer {
     height:5rem;
