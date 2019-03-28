@@ -1,3 +1,6 @@
+$(document).ready( function() {
+
+})
 $(function() {
 
     loadViews();
@@ -20,7 +23,7 @@ function loadViews()
 function loadView(viewName) {
     var fileName = "./sections/" + viewName + ".html";
 
-    $("#" + viewName).load( fileName );
+    $("#" + viewName).load(fileName);
 }
 
 function getToday() {
