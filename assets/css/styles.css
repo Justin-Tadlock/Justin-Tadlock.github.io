@@ -30,9 +30,19 @@ a {
 .blue-font {
     color: rgb(0,161,241) !important;
 }
-.interest {
-    font-size:1rem;
+
+
+.interests > .list-inline-item {
+    font-size: 2rem;
+    text-align: center !important;
 }
+.interests > li {
+    width: 4rem !important;
+}
+.interests > li > h5 {
+    font-size: 1rem !important;
+}
+
 
 .block-emblems > li {
     display:inline-block;
@@ -117,6 +127,9 @@ section > h2:hover {
     color: rgb(0, 161, 241) !important;
 }
 
+#resume-frame {
+    overflow: hidden !important;
+}
 .resume-type {
     padding-bottom: 5em;
 }
