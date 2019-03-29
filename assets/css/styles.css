@@ -159,6 +159,10 @@ section > h2:hover {
 #embedded-resume {
     display: none;
 }
+#resume-frame {
+    width: 100%;
+    border: solid 1px rgb(90,90,90);
+}
 .view-resume {
     display: initial;
 }
@@ -180,9 +184,12 @@ section > h2:hover {
         margin-bottom:0.1rem;
     }
     #resume-frame {
+        height: 70rem;
+    }
+}
+@media (min-width: 1024px) {
+    #resume-frame {
         height: 60rem;
-        width: 100%;
-        border: solid 1px rgb(90,90,90);
     }
 }
 
