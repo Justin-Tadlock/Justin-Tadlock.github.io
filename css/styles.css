@@ -147,14 +147,6 @@ section > h2:hover {
     color: rgb(90, 90, 90); }
 
 #embedded-resume {
-    height: 57rem;
-    width: 100% !important;
-    border: solid 1px rgb(90,90,90);
-    margin-bottom:0.1rem;
-}
-#embedded-resume > object {
-    height: 100%;
-    width: 100%;
     display: none;
 }
 .view-resume {

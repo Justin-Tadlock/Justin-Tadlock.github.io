@@ -1,5 +1,7 @@
 $(function() {
 
+    loadViews();
+    
     var today = getToday();
 
     $("time").text(today);
