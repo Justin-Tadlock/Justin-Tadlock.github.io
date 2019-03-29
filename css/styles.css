@@ -147,35 +147,14 @@ section > h2:hover {
     color: rgb(90, 90, 90); }
 
 #embedded-resume {
-    display: none;
+    height: 57rem;
+    width: 100% !important;
+    border: solid 1px rgb(90,90,90);
+    margin-bottom:0.1rem;
 }
-.view-resume {
-    display: initial;
-}
-.download-resume {
-    display:none;
-}
-@media (min-width: 768px) {
-    .view-resume {
-        display: none;
-    }
-    .download-resume {
-        display:initial;
-    }
-    #embedded-resume {
-        display: initial;
-        height: 100%;
-        width: 100% !important;
-        margin-bottom:0.1rem;
-    }
-    #embedded-resume > iframe {
-        height: 50rem;
-        width: 100%;
-        overflow: hidden;
-        padding: none;
-        margin: none;
-        border: solid 1px rgb(90,90,90);
-    }
+#embedded-resume > object {
+    height: 100%;
+    width: 100%;
 }
 
 .resume-type {
