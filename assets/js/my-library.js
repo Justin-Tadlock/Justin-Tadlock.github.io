@@ -2,19 +2,31 @@ $(function() {
 
     setResumeScrolling("no");
 
-    var today = getToday();
-
-    $("time").text(today);
-    $("time").attr({datetime: today});
+    setCopyRightDate();
+    
 })
 
 function setResumeScrolling(scrolling) {
     $("#resume-frame").attr("scrolling", "no");
 }
 
-function getToday() {
+function setCopyRightDate() {
     var currentDate = new Date($.now());
-    currentDate = (currentDate.getMonth() + 1) + "/" + currentDate.getDate() + "/" + currentDate.getFullYear();
+    
+    var yearNum = currentDate.getFullYear();
+    var monthNum = currentDate.getMonth() + 1;
+    var dayNum = currentDate.getDate();
 
-    return currentDate;
+    if(monthNum < 10) {
+        monthNum = "0" + monthNum;
+    }
+    if(dayNum < 10) {
+        dayNum = "0" + dayNum;
+    }
+
+    var dateText = monthNum + "/" + dayNum + "/" + yearNum;
+    var dateTime = yearNum + "-" + monthNum + "-" + dayNum;
+
+    $("time").text(dateText);
+    $("time").attr({datetime: dateTime});
 }
