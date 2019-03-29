@@ -24,7 +24,7 @@ function setCopyRightDate() {
         dayNum = "0" + dayNum;
     }
 
-    var dateText = monthNum + "/" + dayNum + "/" + yearNum;
+    var dateText = yearNum + "-" + monthNum + "-" + dayNum;
 
     $("time").text(dateText);
     $("time").attr({datetime: dateText});
