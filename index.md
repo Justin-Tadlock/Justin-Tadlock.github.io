@@ -8,4 +8,4 @@ layout: default
 {% include main/about.html %}
 {% include main/skills.html %}
 {% include main/portfolio.html %}
-{% include main/resume.html %}
+{% include main/interests.html %}
