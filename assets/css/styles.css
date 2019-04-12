@@ -151,3 +151,8 @@ body .d-flex {
 footer {
     width: 100%;
 }
+
+#portfolio {
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
