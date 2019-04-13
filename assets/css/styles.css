@@ -41,6 +41,12 @@ h2 {
 }
 
 header {
+    width: 100%; }
+
+footer {
+    text-align: center;
+    padding-bottom: 50px; 
+    font-weight: bold;
     width: 100%;
 }
 
@@ -261,4 +267,3 @@ div .col-2:hover {
     font-size: 1.5rem;
     text-decoration: none;
 }
-
