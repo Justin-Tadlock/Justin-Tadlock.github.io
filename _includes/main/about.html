@@ -1,12 +1,12 @@
-<section class="container d-flex resume-section" id="about">
-  <div class="align-self-center">
+<section class="resume-section" id="about">
+  <div class="container">
     <header>
       <h1>
         Justin
         <span class="text-primary">Tadlock</span>
       </h1>
-      <span>Developer. Innovator.&nbsp;</span>
-      <span class="bf">&nbsp;Personal Growth Enthusiast.</span>
+      <span>Developer. Innovator.&nbsp;&nbsp;</span>
+      <span class="bf">Personal Growth Enthusiast.</span>
       <hr />
     </header>
     <section>
@@ -24,42 +24,34 @@
         Bootstrap, javascript, jQuery, and
         <a href="#skills" class="js-scroll-trigger">many others</a>.<br /><br />
       </p>
-      <ul class="inline-list">
-        <li>
-          <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
-            <i class="fab fa-facebook fa-3x"></i>
+      <div class="d-flex ml-0">
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+          <i class="fab fa-facebook fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+          <i class="fab fa-linkedin fa-3x"></i>
+        </a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <i class="fab fa-github-square fa-3x"></i>
+        </a>
+        <div class="dropdown show">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <span>Résumé</span>
           </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
-            <i class="fab fa-linkedin fa-3x"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/{{ site.github_username }}" target="_blank">
-            <i class="fab fa-github-square fa-3x"></i>
-          </a>
-        </li>
-        <li>
-          <div class="dropdown show">
-            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <span>Résumé</span>
-            </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item"
-                href="https://docs.google.com/document/d/e/2PACX-1vRQmd_4YxGcdtjCxCmCeHDxr0taPUesxo4E3ZprhcY0iYZa4p9tr0LeguMPOJesnVi55HC-D4tPGFL9/pub?embedded=true"
-                target="_blank">
-                View</a>
-              <a class="dropdown-item"
-                href="https://docs.google.com/document/d/1OZI-WqnFAS6NAjpnemH5sykGM5HjfPvuLKBSzyIWLGQ/export?format=pdf">PDF</a>
-              <a class="dropdown-item"
-                href="https://docs.google.com/document/d/1OZI-WqnFAS6NAjpnemH5sykGM5HjfPvuLKBSzyIWLGQ/export?format=docx">DOCX</a>
-            </div>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item"
+              href="https://docs.google.com/document/d/e/2PACX-1vRQmd_4YxGcdtjCxCmCeHDxr0taPUesxo4E3ZprhcY0iYZa4p9tr0LeguMPOJesnVi55HC-D4tPGFL9/pub?embedded=true"
+              target="_blank">
+              View</a>
+            <a class="dropdown-item"
+              href="https://docs.google.com/document/d/1OZI-WqnFAS6NAjpnemH5sykGM5HjfPvuLKBSzyIWLGQ/export?format=pdf">PDF</a>
+            <a class="dropdown-item"
+              href="https://docs.google.com/document/d/1OZI-WqnFAS6NAjpnemH5sykGM5HjfPvuLKBSzyIWLGQ/export?format=docx">DOCX</a>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
   </div>
 </section>
