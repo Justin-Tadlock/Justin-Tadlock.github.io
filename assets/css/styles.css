@@ -34,7 +34,9 @@ header {
 
 footer {
     text-align: center;
-    padding-bottom: 50px; }
+    padding-bottom: 50px; 
+    font-weight: bold;
+}
 
 section {
     margin: auto;
@@ -197,6 +199,3 @@ div .col-2:hover {
 
 
 
-footer {
-    width: 100%;
-}
