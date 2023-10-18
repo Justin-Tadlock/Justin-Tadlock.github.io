@@ -14,12 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Justin Tadlock. Developer. Innovator. Personal Growth Enthusiast. 
-email: justin.b.tadlock@gmail.com
+email: justin-tadlock@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   "A natural problem solver who has been coding for 13+ years. 
   His passion for development stems from his belief that 
   programming is a perfect blend of analytics, creativity, 
-  and logic to produce beautiful and elegant soltutions 
+  and logic to produce beautiful and elegant solutions 
   that run our world."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
