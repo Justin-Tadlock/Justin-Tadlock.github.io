@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Justin Tadlock. Developer. Innovator. Personal Growth Enthusiast. 
+title: Justin Tadlock. Developer. Innovator. Personal Growth Enthusiast.
 email: justin-tadlock@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   "A natural problem solver who has been coding for 13+ years. 
@@ -21,9 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   programming is a perfect blend of analytics, creativity, 
   and logic to produce beautiful and elegant solutions 
   that run our world."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Justin-Tadlock
+baseurl: '' # the subpath of your site, e.g. /blog
+url: '' # the base hostname & protocol for your site, e.g. http://example.com
+github_username: Justin-Tadlock
 facebook_username: JustinBTadlock
 linkedin_username: justinbtadlock
 
@@ -31,7 +31,6 @@ linkedin_username: justinbtadlock
 markdown: kramdown
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
