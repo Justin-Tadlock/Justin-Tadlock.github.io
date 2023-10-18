@@ -22,14 +22,13 @@ $(function () {
 
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
-        target: '#sideNav'
+        target: '#side-nav'
     });
 
     setResumeScrolling("no");
 
     setCopyRightDate();
-
-})
+});
 
 function setResumeScrolling(scrolling) {
     $("#resume-frame").attr("scrolling", "no");

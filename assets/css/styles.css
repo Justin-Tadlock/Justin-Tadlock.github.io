@@ -126,13 +126,13 @@ div .col-2:hover {
     color: #007bff;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
+#side-nav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
-    #sideNav {
+    #side-nav {
         text-align: center;
         position: fixed;
         top: 0;
@@ -143,19 +143,19 @@ div .col-2:hover {
         height: 100vh;
     }
 
-    #sideNav .navbar-brand {
+    #side-nav .navbar-brand {
         display: flex;
         margin: auto auto 0;
         padding: 0.5rem;
     }
 
-    #sideNav .navbar-brand .img-profile {
+    #side-nav .navbar-brand .img-profile {
         max-width: 10rem;
         max-height: 10rem;
         border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
 
-    #sideNav .navbar-collapse {
+    #side-nav .navbar-collapse {
         display: flex;
         align-items: flex-start;
         flex-grow: 0;
@@ -163,16 +163,16 @@ div .col-2:hover {
         margin-bottom: auto;
     }
 
-    #sideNav .navbar-collapse .navbar-nav {
+    #side-nav .navbar-collapse .navbar-nav {
         flex-direction: column;
         width: 100%;
     }
 
-    #sideNav .navbar-collapse .navbar-nav .nav-item {
+    #side-nav .navbar-collapse .navbar-nav .nav-item {
         display: block;
     }
 
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    #side-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
     }
 }
